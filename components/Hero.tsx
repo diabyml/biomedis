@@ -13,7 +13,7 @@ export default function Hero() {
           Autonomiser les professionnels de santé avec des équipements et
           services de pointe au Mali et au-delà.
         </p>
-        <div className="space-x-4">
+        <div className="flex flex-wrap gap-4">
           <Button asChild variant="secondary">
             <Link href="/products-services">Explorer les Produits</Link>
           </Button>
