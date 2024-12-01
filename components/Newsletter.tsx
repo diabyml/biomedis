@@ -26,10 +26,14 @@ export default function Newsletter() {
 
       if (error) {
         if (error.code === "23505") {
-          toast.error("Cette adresse email est déjà inscrite à notre newsletter");
+          toast.error(
+            "Cette adresse email est déjà inscrite à notre newsletter"
+          );
         } else {
           console.error("Newsletter subscription error:", error);
-          toast.error("Une erreur s'est produite. Veuillez réessayer plus tard.");
+          toast.error(
+            "Une erreur s'est produite. Veuillez réessayer plus tard."
+          );
         }
         return;
       }
@@ -51,6 +55,7 @@ export default function Newsletter() {
         <Input
           type="email"
           placeholder="Votre adresse email"
+          className="text-black"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           disabled={isLoading}
