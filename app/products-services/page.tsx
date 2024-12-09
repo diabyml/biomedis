@@ -39,7 +39,7 @@ const servicesData = [
     id: 3,
     title: "Programmes d'Études Médicales",
     description:
-      "Support pour les professionnels de santé souhaitant poursuivre des études médicales à l'étranger",
+      "Support pour ceux souhaitant poursuivre des études à l'étranger.",
     icon: GraduationCapIcon,
   },
 ];

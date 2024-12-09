@@ -19,7 +19,7 @@ export default function Services() {
       icon: GlobeAltIcon,
       title: "Études Médicales à l'Étranger",
       description:
-        "Nous facilitons le tourisme médical et les études à l'étranger, en mettant en relation les patients maliens avec des prestataires de soins internationaux.",
+        "Nous facilitons le tourisme médical et les études à l'étranger, en mettant en relation les étudiants maliens avec des établissements d'enseignement internationaux.",
     },
   ];
 

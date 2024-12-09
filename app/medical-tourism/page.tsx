@@ -144,7 +144,7 @@ export default function MedicalTourismPage() {
       <section className="bg-gray-100 py-16">
         <div className="container max-w-screen-lg mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">
-            Programmes d&apos;Études Médicales pour les Professionnels
+            Programmes d&apos;Études pour les Étudiants
           </h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
@@ -160,23 +160,24 @@ export default function MedicalTourismPage() {
             </div>
             <div className="order-1 md:order-2">
               <p className="mb-4">
-                Enrichissez votre carrière médicale avec nos programmes
+                Enrichissez votre parcours académique avec nos programmes
                 d&apos;études à l&apos;étranger. Nous collaborons avec des
-                institutions médicales de premier plan pour offrir des
-                opportunités uniques de formation et de recherche.
+                institutions de premier plan pour offrir des opportunités
+                uniques de formation et de recherche.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <GraduationCap className="mr-2 text-blue-600" />
-                  Stages cliniques dans des hôpitaux internationaux
+                  Stages pratiques dans des organisations internationales
                 </li>
                 <li className="flex items-center">
                   <GraduationCap className="mr-2 text-blue-600" />
-                  Programmes de recherche médicale avancée
+                  Programmes de recherche avancée dans divers domaines
                 </li>
                 <li className="flex items-center">
                   <GraduationCap className="mr-2 text-blue-600" />
-                  Formations spécialisées en nouvelles technologies médicales
+                  Formations spécialisées en nouvelles technologies et
+                  innovations
                 </li>
               </ul>
               <div className="mt-4">
